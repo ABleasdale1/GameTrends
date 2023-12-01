@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Trends</title>
+</head>
+<header>
+    <div class="bar">
+        <div class="logo">
+            <a href="{% url 'userApp:home' %}">
+                <!-- <img src="{% static 'images/logo.png' %}" alt="Runshaw Student Bank" id="logo"> -->
+            </a>
+        </div>
+        <div class="title">
+            <h1>Game Trends</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="users">Profile</a></li>
+                <li><a href="games">Games</a></li>
+                <li><a href="reviews">Store</a></li>
+            </ul>
+        </nav>
+        <div class="profile-icon">
+            <a href="{% url 'userApp:profile' %}"><i class="fa-solid fa-circle-user fa-2xl" id="profile-icon"></i></a>
+        </div>
+    </div>
+</header>
+<body>
+    
+</body>
+</html>

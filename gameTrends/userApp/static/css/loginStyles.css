@@ -1,0 +1,68 @@
+.container {
+    height: 200px;
+    position: relative;
+    /* margin: 20px 140px; */
+    text-align: center;
+    padding: 20px;
+}
+
+.loginForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #333 5px solid;
+    border-radius: 10%;
+    padding: 16px 60px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin: 8px 2px;
+}
+
+.inputBox {
+    margin: 0px 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center;
+    border: #888888 2px solid;
+    border-radius: 20%;
+    background-color: #FFF;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Adjust width */
+    max-height: 80%; /* Adjust max-height */
+    overflow: auto; /* Add overflow for longer content */
+    align-content: center;
+}
+
+#closeButton {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#closeButton:hover,
+#closeButton:focus {
+    color: #F00;
+    text-decoration: none;
+    cursor: pointer;
+}

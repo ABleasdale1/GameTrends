@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 90px;
+    position: relative;
+    margin: 3% 0%;
+}
+
+.main-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #a7a7ff;
+    border: none;
+    border-radius: 10%;
+    color: #333333;
+    padding: 16px 64px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    margin: 8px 2px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #f00;
+    color: #FFD700;
+}
+
+.col-1 {width: 12.5%; text-align: center;}
+.col-2 {width: 25%; text-align: center;}
+.col-3 {width: 37.5%; text-align: center;}
+.col-4 {width: 50%; text-align: center;}
+.col-5 {width: 62.5%; text-align: center;}
+.col-6 {width: 75%; text-align: center;}
+.col-7 {width: 87.5%; text-align: center;}
+.col-8 {width: 100%; text-align: center;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /* border: 1px solid black; */
+    border-radius: 100px;
+    padding: 25px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#cardMachine-img {
+    width: 80%;
+    height: auto;
+    border: #333 5px solid;
+    border-radius: 40px;
+    
+}
+
+#friendlyStaff-img {
+    width: 80%;
+    height: auto;
+    border: #333 5px solid;
+    border-radius: 40px;
+}
+
+#amazingSecurity-img {
+    width: 80%;
+    height: auto;
+    border: #333 5px solid;
+    border-radius: 40px;
+}
+
+@media only screen and (max-width: 1300px) {
+    [class*="col-"] {
+        width:100%;
+    }
+}

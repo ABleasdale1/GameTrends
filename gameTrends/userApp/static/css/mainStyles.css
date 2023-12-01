@@ -1,0 +1,61 @@
+html {
+    background-color: #2a2a2a;
+    color: #fff;
+    font-family: Poppins;
+}
+
+#heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.bar {
+    background-color: #000;
+    overflow: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav-bar {
+    position: relative;
+    margin-top: 10%;
+    background-color: #2e2e2e;
+
+}
+
+#logo {
+    float: left;
+    margin: 10px 20px;
+    font-size: 20px;
+    color: white;
+    max-width: 350px;
+    height: auto;
+    border: #48ff00 5px solid;
+    border-radius: 50px;
+}
+
+#profile-icon {
+    float: right;
+    padding: 80px 16px;
+}
+
+.footer {
+    background-color: #000;
+    overflow: auto;
+    max-width: 100%;
+    padding: 15px;
+    text-align: Left;
+    font-size: 14px;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}

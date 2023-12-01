@@ -5,8 +5,8 @@
     <title>Game Trends</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="{% static 'css/mainStyles.css' %}"> 
-    <link type="text/css" rel="stylesheet" href="{% static 'css/homeStyles.css' %}">
+    <link type="text/css" rel="stylesheet" href="{% static 'userApp/css/mainStyles.css' %}"> 
+    <link type="text/css" rel="stylesheet" href="{% static 'userApp/css/homeStyles.css' %}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
     <script src="https://kit.fontawesome.com/8cca80b5d2.js" crossorigin="anonymous"></script>
 </head>
@@ -14,7 +14,7 @@
     <div class="bar">
         <div class="logo">
             <a href="{% url 'userApp:home' %}">
-                <img src="{% static 'images/game-trends-logo.png' %}" alt="Game Trends Logo" id="logo">
+                <img src="{% static 'userApp/images/game-trends-logo.png' %}" alt="Game Trends Logo" id="logo">
             </a>
         </div>
         <div class="profileContainer">
@@ -33,10 +33,10 @@
         </div>
         <div class="nav-bar">
             <nav>
-                <a href="home"><button class="nav-button">Home</button></a>
-                <a href="users"><button class="nav-button">Profile</button></a>
-                <a href="games"><button class="nav-button">Games</button></a>
-                <a href="reviews"><button class="nav-button">Store</button></a>
+                <a href="{% url 'userApp:home' %}"><button class="nav-button">Home</button></a>
+                <a href="{% url 'userApp:profile' %}"><button class="nav-button">Profile</button></a>
+                <a href="{% url 'userApp:friends' %}"><button class="nav-button">Friends</button></a>
+                <a href="{% url 'userApp:store' %}"><button class="nav-button">Store</button></a>
             </nav>
         </div>
     </div>

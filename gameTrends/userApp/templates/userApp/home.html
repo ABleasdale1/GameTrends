@@ -17,26 +17,26 @@
                 <img src="{% static 'images/game-trends-logo.png' %}" alt="Game Trends Logo" id="logo">
             </a>
         </div>
-        <div class="profile-icon">
-            <a href="{% url 'userApp:profile' %}"><svg xmlns="http://www.w3.org/2000/svg" height="46" width="46" viewBox="0 0 512 512">
-                <path fill="#48ff00" d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"/>
-                </svg>
-                <style>
-                    #myPath {
-                        fill: #48ff00;
-                        transform: matrix3d();
-                    }
-                </style>
-            </a>
+        <div class="profileContainer">
+            <div class="profile-icon">
+                <a href="{% url 'userApp:profile' %}"><svg xmlns="http://www.w3.org/2000/svg" height="46" width="46" viewBox="0 0 512 512">
+                    <path fill="#48ff00" d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"/>
+                    </svg>
+                    <style>
+                        #myPath {
+                            fill: #48ff00;
+                            transform: matrix3d();
+                        }
+                    </style>
+                </a>
+            </div>
         </div>
         <div class="nav-bar">
             <nav>
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="users">Profile</a></li>
-                    <li><a href="games">Games</a></li>
-                    <li><a href="reviews">Store</a></li>
-                </ul>
+                <a href="home"><button class="nav-button">Home</button></a>
+                <a href="users"><button class="nav-button">Profile</button></a>
+                <a href="games"><button class="nav-button">Games</button></a>
+                <a href="reviews"><button class="nav-button">Store</button></a>
             </nav>
         </div>
     </div>

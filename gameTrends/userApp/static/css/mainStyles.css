@@ -10,6 +10,10 @@ html {
 }
 
 .bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%; 
     background-color: #000;
     overflow: auto;
     padding: 5px;
@@ -18,9 +22,31 @@ html {
 
 .nav-bar {
     position: relative;
-    margin-top: 10%;
+    bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
     background-color: #2e2e2e;
+}
 
+.nav-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #48ff00;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 20%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 #logo {
@@ -32,6 +58,15 @@ html {
     height: auto;
     border: #48ff00 5px solid;
     border-radius: 50px;
+}
+
+.profileContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin: 20px 20px;
 }
 
 #profile-icon {

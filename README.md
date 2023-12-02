@@ -91,6 +91,6 @@ Welcome to Game Trends, your go-to platform for staying updated on the latest ga
 
 ## License
 
-This project is licensed under the [](LICENSE.md).
+This project is licensed under the [GNU Affero General Public License v3.0](LICENSE.md).
 
 Happy gaming! 🎮

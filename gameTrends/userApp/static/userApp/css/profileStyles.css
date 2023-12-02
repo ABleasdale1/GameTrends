@@ -35,7 +35,11 @@
     border: 5px solid #48ff00;
     border-radius: 25px;
     background-color: #000;
+    text-align: center;
+}
 
+#headings {
+    text-decoration: underline;
 }
 
 .iconContainer {

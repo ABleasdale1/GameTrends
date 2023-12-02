@@ -1,0 +1,76 @@
+/* Path: GameTrends/gameTrends/userApp/static/userApp/css/profileStyles.css */
+
+.switchView {
+    background-color: #2e2e2e;
+    margin: 0 38%;
+    margin-bottom: 5px;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+
+.switchViewButton {
+    padding: 10px 20px;
+    margin: 0 10%;
+    background-color: #48ff00;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 20%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.switchViewButton:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.content {
+    margin: 10px 10%;
+    padding: 10px;
+    height: auto;
+    border: 5px solid #48ff00;
+    border-radius: 25px;
+    background-color: #000;
+
+}
+
+.iconContainer {
+    position: relative;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+
+#profilePicture {
+    position: relative;
+    float: left;
+    max-width: 150px;
+    max-height: auto;
+    border-radius: 100%;
+}
+
+#editIcon {
+    position: relative;
+    float: right;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transform: scale(1);  /* Default scale */
+}
+
+#editIcon:hover {
+    transform: scale(0.8);  /* Scale up when hovered */
+}
+
+.accountInfo {
+    text-align: center;
+    margin: 10px 5%;
+    padding: 10px;
+    height: auto;
+    border: 5px solid #48ff00;
+    border-radius: 25px;
+    background-color: #2e2e2e;
+}

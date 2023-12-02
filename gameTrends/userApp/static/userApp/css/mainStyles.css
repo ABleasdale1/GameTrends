@@ -4,11 +4,6 @@ html {
     font-family: Poppins;
 }
 
-#heading{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-
 .bar {
     display: flex;
     flex-direction: column;
@@ -24,9 +19,10 @@ html {
     position: relative;
     bottom: 0;
     justify-content: space-between;
-    width: 100%;
-    /* padding: 0 10px; */
+    width: 100%; 
+    padding: 8px 0;
     background-color: #2e2e2e;
+    border-radius: 25px;
 }
 
 .nav-button {
@@ -69,9 +65,17 @@ html {
     margin: 20px 20px;
 }
 
-#profile-icon {
+#profile-Icon {
+    position: relative;
     float: right;
     padding: 80px 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transform: scale(1);  /* Default scale */
+}
+
+#profile-Icon:hover {
+    transform: scale(0.8);  /* Scale up when hovered */
 }
 
 .footer {
@@ -83,14 +87,4 @@ html {
     font-size: 14px;  
     justify-content: space-between;
     align-items: center;
-}
-
-.github-link {
-    color: #000;
-    text-decoration: none;
-}
-
-.github-link:hover {
-    color: #FFD700;
-    text-decoration: underline;
 }

@@ -1,5 +1,7 @@
 # Game Trends
 
+## This is a college project
+
 Welcome to Game Trends, your go-to platform for staying updated on the latest gaming trends, managing your game library, connecting with friends, and exploring a curated store page. Whether you're a casual gamer or a hardcore enthusiast, Game Trends has something for everyone.
 
 ## Table of Contents

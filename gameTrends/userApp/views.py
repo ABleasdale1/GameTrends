@@ -13,8 +13,8 @@ def profile(request):
         'lName' : 'Admin',
         'country' : 'United Kingdom',
         'city' : 'London',
-        'address' : '123 Fake Street',
-        'postcode' : 'AB1 2CD',
+        'address' : '726 Lordship Lane',
+        'postcode' : 'N22 5JN',
     }
     return render(request, 'userApp/profile.html', context=userDetails)
 

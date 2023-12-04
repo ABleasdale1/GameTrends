@@ -36,13 +36,15 @@ html {
     display: inline-block;
     font-size: 18px;
     border-radius: 20%;
-    transition-duration: 0.4s;
+    transition-duration: 0.6s;
     cursor: pointer;
+    transform: scale(1);
 }
 
 .nav-button:hover {
     background-color: #000;
     color: #fff;
+    transform: scale(0.8);
 }
 
 #logo {

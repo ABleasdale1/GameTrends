@@ -63,7 +63,7 @@ Welcome to Game Trends, your go-to platform for staying updated on the latest ga
    npm start
    ```
 
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to access Game Trends.
+5. Open your browser and visit [http://localhost:8000](http://localhost:8000) to access Game Trends.
 
 ## Account Management
 

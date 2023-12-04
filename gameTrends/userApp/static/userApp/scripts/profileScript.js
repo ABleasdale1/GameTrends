@@ -9,3 +9,4 @@ function switchView(view) {
 function showEditForm() {
     document.getElementById('editForm').style.display = 'block';
 }
+

@@ -54,9 +54,10 @@
 #profilePicture {
     position: relative;
     float: left;
-    max-width: 150px;
+    margin: 10px;
+    max-width: 140px;
     max-height: auto;
-    border-radius: 50% 50%;
+    border-radius: 50%;
 }
 
 #editIcon {

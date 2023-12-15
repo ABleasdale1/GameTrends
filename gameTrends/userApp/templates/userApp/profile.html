@@ -36,14 +36,17 @@
                 <a href="{% url 'userApp:store' %}"><button class="nav-button">Store</button></a>
             </nav>
         </div>
+        
+    </div>
+</header>
+<body>
+    <div class="switchView-container">
         <h2>What would you like to view?</h2>
         <div class="switchView">
             <button class="switchViewButton" onclick="switchView('account')">Account</button>
             <button class="switchViewButton" onclick="switchView('library')">Library</button>
         </div>
     </div>
-</header>
-<body>
     <div id="contentContainer">
         <div id="account" class="content">
             <h1 id="headings">Account</h1>
@@ -147,7 +150,37 @@
                         <p>Developer Name</p>
                     </div>
                 </div>
-                
+                <div class="gameItem">
+                    <img src="{% static 'userApp/images/default-profile-picture.png' %}" alt="game name">
+                    <div class="overlay">
+                        <h4>Game Name</h4>
+                        <p>Developer Name</p>
+                    </div>
+                </div>
+                <div class="gameItem">
+                    <img src="{% static 'userApp/images/default-profile-picture.png' %}" alt="game name">
+                    <div class="overlay">
+                        <h4>Game Name</h4>
+                        <p>Developer Name</p>
+                    </div>
+                </div>
+                <div class="gameItem">
+                    <img src="{% static 'userApp/images/default-profile-picture.png' %}" alt="game name">
+                    <div class="overlay">
+                        <h4>Game Name</h4>
+                        <p>Developer Name</p>
+                    </div>
+                </div>
+                <div class="gameItem">
+                    <img src="{% static 'userApp/images/default-profile-picture.png' %}" alt="game name">
+                    <div class="overlay">
+                        <h4>Game Name</h4>
+                        <p>Developer Name</p>
+                    </div>
+                </div>
+                <div class="gameItem addMore">
+                    <button onclick='location.href="{% url "userApp:store" %}";'>Add More</button>
+                </div>
             </div>
         </div>
     </div>

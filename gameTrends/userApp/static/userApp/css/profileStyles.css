@@ -1,8 +1,17 @@
 /* Path: GameTrends/gameTrends/userApp/static/userApp/css/profileStyles.css */
 
+.switchView-container {
+    /* border: 1px solid #F00; */
+    border-radius: 25px;
+    background-color: #000;
+    margin: 1% 30%;
+    text-align: center;
+    padding: 1px;
+}
+
 .switchView {
     background-color: #2e2e2e;
-    margin: 0 38%;
+    margin: 2% 25%;
     margin-bottom: 5px;
     padding: 8px 20px;
     border-radius: 25px;
@@ -86,7 +95,7 @@
 .gameLibrary {
     text-align: center;
     margin: 10px 5%;
-    padding: 10px;
+    padding: 15px;
     height: auto;
     border: 5px solid #48ff00;
     border-radius: 25px;
@@ -95,13 +104,19 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 10px;
     overflow-y: auto;
-    max-height: 500px; /* Adjust as needed */
+    max-height: 500px;
 }
 
 .gameItem {
     border: 1px solid #ccc;
     padding: 10px;
-    position: relative; /* Add this */
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+.gameItem:hover {
+    transform: scale(0.9);
 }
 
 .gameItem img {
@@ -110,8 +125,8 @@
 
 .gameItem h4, .gameItem p {
     margin: 0;
-    color: white; /* Change the text color so it's visible on the image */
-    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+    color: white; 
+    background: rgba(0, 0, 0, 0.9);
 }
 
 /* Add these new styles */
@@ -121,4 +136,32 @@
     left: 0;
     right: 0;
     padding: 10px;
+}
+
+.gameItem.addMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+.gameItem.addMore:hover {
+    transform: scale(0.9);
+}
+
+.gameItem.addMore button {
+    padding: 20px 40px; /* Increase the padding */
+    font-size: 20px; /* Increase the font size */
+    border: none;
+    border-radius: 5px;
+    background-color: #48ff00;
+    color: #000;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+.gameItem.addMore button:hover {
+    background-color: #000;
+    color: #fff;
 }

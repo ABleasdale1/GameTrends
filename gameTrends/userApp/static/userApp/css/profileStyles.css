@@ -91,4 +91,34 @@
     border: 5px solid #48ff00;
     border-radius: 25px;
     background-color: #2e2e2e;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    overflow-y: auto;
+    max-height: 500px; /* Adjust as needed */
+}
+
+.gameItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative; /* Add this */
+}
+
+.gameItem img {
+    width: 100%;
+}
+
+.gameItem h4, .gameItem p {
+    margin: 0;
+    color: white; /* Change the text color so it's visible on the image */
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+}
+
+/* Add these new styles */
+.gameItem .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
 }

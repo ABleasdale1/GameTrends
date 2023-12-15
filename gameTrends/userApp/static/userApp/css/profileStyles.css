@@ -1,5 +1,3 @@
-/* Path: GameTrends/gameTrends/userApp/static/userApp/css/profileStyles.css */
-
 .switchView-container {
     /* border: 1px solid #F00; */
     border-radius: 25px;
@@ -75,11 +73,11 @@
     padding: 10px 20px;
     cursor: pointer;
     transition-duration: 0.4s;
-    transform: scale(1);  /* Default scale */
+    transform: scale(1);  
 }
 
 #editIcon:hover {
-    transform: scale(0.8);  /* Scale up when hovered */
+    transform: scale(0.8);  
 }
 
 .accountInfo {
@@ -129,7 +127,6 @@
     background: rgba(0, 0, 0, 0.9);
 }
 
-/* Add these new styles */
 .gameItem .overlay {
     position: absolute;
     bottom: 0;
@@ -151,8 +148,8 @@
 }
 
 .gameItem.addMore button {
-    padding: 20px 40px; /* Increase the padding */
-    font-size: 20px; /* Increase the font size */
+    padding: 20px 40px; 
+    font-size: 20px; 
     border: none;
     border-radius: 5px;
     background-color: #48ff00;

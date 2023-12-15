@@ -105,6 +105,16 @@
     max-height: 500px;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container svg {
+    margin-right: 10px;
+}
+
 .gameItem {
     border: 1px solid #ccc;
     padding: 10px;

@@ -139,6 +139,7 @@
 
 .gameItem .overlay {
     position: absolute;
+    height: 230px;
     bottom: 0;
     left: 0;
     right: 0;

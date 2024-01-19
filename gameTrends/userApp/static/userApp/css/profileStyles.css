@@ -39,7 +39,7 @@
 }
 
 .content {
-    margin: 10px 10%;
+    margin: 15px 15%;
     padding: 10px;
     height: auto;
     border: 5px solid #48ff00;
@@ -82,7 +82,7 @@
 
 .accountInfo {
     text-align: center;
-    margin: 10px 5%;
+    margin: 10px 15% 5% 15%;
     padding: 10px;
     height: auto;
     border: 5px solid #48ff00;
